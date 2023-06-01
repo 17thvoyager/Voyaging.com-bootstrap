@@ -9,71 +9,64 @@
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <style>
-
     section {
       padding: 60px 0;
     }
 
-    body {
-  margin: 0;
-  padding: 0;
-}
+    .content {
+      padding: 20px;
+    }
 
-.content {
-  padding: 20px;
-}
+    footer {
+      background-color: #f2f2f2;
+      padding: 30px 0;
+    }
 
-footer {
-  background-color: #f2f2f2;
-  padding: 30px 0;
-}
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
 
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
+    .footer-section {
+      flex: 0 0 30%;
+      margin-bottom: 20px;
+    }
 
-.footer-section {
-  flex: 0 0 30%;
-  margin-bottom: 20px;
-}
+    .footer-section h2 {
+      color: #333;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
 
-.footer-section h2 {
-  color: #333;
-  font-size: 18px;
-  margin-bottom: 10px;
-}
+    .footer-section p {
+      color: #777;
+    }
 
-.footer-section p {
-  color: #777;
-}
+    .social-media-icons {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
 
-.social-media-icons {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
+    .social-media-icons li {
+      display: inline-block;
+      margin-right: 10px;
+    }
 
-.social-media-icons li {
-  display: inline-block;
-  margin-right: 10px;
-}
+    .social-media-icons a {
+      color: #777;
+      text-decoration: none;
+      font-size: 20px;
+    }
 
-.social-media-icons a {
-  color: #777;
-  text-decoration: none;
-  font-size: 20px;
-}
-
-.footer-bottom {
-  background-color: #ddd;
-  padding: 10px;
-  text-align: center;
-  color: #777;
-  font-size: 14px;
-}
-
+    .footer-bottom {
+      background-color: #ddd;
+      padding: 10px;
+      text-align: center;
+      color: #777;
+      font-size: 14px;
+    }
   </style>
 </head>
 
@@ -552,30 +545,31 @@ footer {
     integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
     crossorigin="anonymous"></script>
 
-    <footer class="footer-bottom justify-content-center ">
-      <div class="footer-content">
-        <div class="footer-section">
-          <h2>About Us</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquam magna eu ipsum posuere, a dignissim lacus tempor.</p>
-        </div>
-        <div class="footer-section">
-          <h2>Contact Us</h2>
-          <p>Email: info@example.com</p>
-          <p>Phone: +1 123-456-7890</p>
-        </div>
-        <div class="footer-section">
-          <h2>Follow Us</h2>
-          <ul class="social-media-icons">
-            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-          </ul>
-        </div>
+  <footer class="footer-bottom justify-content-center ">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquam magna eu ipsum posuere, a dignissim
+          lacus tempor.</p>
       </div>
-      <div class="footer-bottom">
-        <p>&copy; 2023 Your Website. All rights reserved.</p>
+      <div class="footer-section">
+        <h2>Contact Us</h2>
+        <p>Email: info@example.com</p>
+        <p>Phone: +1 123-456-7890</p>
       </div>
-    </footer>
+      <div class="footer-section">
+        <h2>Follow Us</h2>
+        <ul class="social-media-icons">
+          <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2023 Your Website. All rights reserved.</p>
+    </div>
+  </footer>
 
 
 </body>
